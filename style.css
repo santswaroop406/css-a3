@@ -1,0 +1,219 @@
+ body {
+     height: 100%;
+     margin: 0;
+ }
+ 
+ body::-webkit-scrollbar {
+     display: none;
+ }
+ 
+ .main {
+     height: 100%;
+     width: 99%;
+     border: 10px solid yellowgreen;
+     background-image: url(./im.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: white;
+ }
+ 
+ .first {
+     height: 250px;
+     width: 100%;
+     font-style: italic;
+ }
+ 
+ .Welcome {
+     height: 150px;
+     width: 350px;
+     background-color: black;
+     text-align: center;
+     border: 10px solid red;
+     border-radius: 40px;
+     position: relative;
+     left: 40px;
+     margin: 40px;
+ }
+ 
+ .homemenu {
+     height: 80px;
+     font-size: x-large;
+     width: 400px;
+     background-color: black;
+     text-align: center;
+     border: 10px solid red;
+     border-radius: 40px;
+     position: absolute;
+     right: 550px;
+     top: 50px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+ }
+ 
+ .mail {
+     height: 150px;
+     width: 350px;
+     background-color: black;
+     text-align: center;
+     border: 10px solid red;
+     border-radius: 40px;
+     position: absolute;
+     right: 40px;
+     top: 50px;
+     font-size: x-large;
+ }
+ 
+ .offer {
+     height: 450px;
+     width: 450px;
+     background-color: rgb(52, 123, 123);
+     text-align: center;
+     border: 10px solid grey;
+     border-radius: 300px;
+     display: block;
+     align-items: center;
+     justify-content: center;
+     font-size: x-large;
+     color: black;
+     font-style: italic;
+ }
+ 
+ .highlight {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 150px;
+ }
+ 
+ .register {
+     height: 650px;
+     width: 450px;
+     border: 10px dashed red;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     right: 500px;
+     top: 300px;
+     font-size: x-large;
+     color: black;
+ }
+ 
+ .here {
+     height: 100px;
+     width: 250px;
+     border-radius: 50px 0px 50px 0px;
+     background-color: blueviolet;
+     border: 5px solid yellow;
+     padding-left: 30px;
+     margin-left: 10px;
+     color: aqua;
+ }
+ 
+ .menu {
+     height: 100px;
+     width: 450px;
+     background-color: black;
+     border: 10px solid red;
+     border-radius: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     position: absolute;
+     right: 500px;
+     top: 1000px;
+     font-style: italic;
+ }
+ 
+ .hr {
+     margin-top: 400px;
+ }
+ 
+ .container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     gap: 30px;
+     margin-top: 50px;
+ }
+ 
+ .row {
+     display: flex;
+     justify-content: space-evenly;
+     width: 100%;
+ }
+ 
+ .Starers {
+     height: 350px;
+     width: 350px;
+     background-color: aqua;
+     color: blue;
+     font-style: italic;
+     font-size: x-large;
+     border: 5px solid green;
+     border-radius: 100px;
+     text-align: center;
+ }
+ 
+ .south {
+     height: 350px;
+     width: 350px;
+     background-color: aqua;
+     color: blue;
+     font-style: italic;
+     font-size: x-large;
+     border: 5px solid green;
+     border-radius: 100px;
+     text-align: center;
+ }
+ 
+ .kit {
+     height: 350px;
+     width: 350px;
+     background-color: aqua;
+     color: blue;
+     font-style: italic;
+     font-size: x-large;
+     border: 5px solid green;
+     border-radius: 100px;
+     text-align: center;
+ }
+ 
+ .rice {
+     height: 350px;
+     width: 350px;
+     background-color: aqua;
+     color: blue;
+     font-style: italic;
+     font-size: x-large;
+     border: 5px solid green;
+     border-radius: 100px;
+     text-align: center;
+ }
+ 
+ .tandoori {
+     height: 350px;
+     width: 350px;
+     background-color: aqua;
+     color: blue;
+     font-style: italic;
+     font-size: x-large;
+     border: 5px solid green;
+     border-radius: 100px;
+     text-align: center;
+ }
+ 
+ .other {
+     height: 350px;
+     width: 350px;
+     background-color: aqua;
+     color: blue;
+     font-style: italic;
+     font-size: x-large;
+     border: 5px solid green;
+     border-radius: 100px;
+     text-align: center;
+ }
